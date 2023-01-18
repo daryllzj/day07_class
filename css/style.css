@@ -20,3 +20,34 @@ h1 {
     color: #FFC93C;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+  }
+
+.buffer{
+    padding-left: 90px;
+    padding-right: 90px;
+    color: blue;
+    background: green;
+}
+
+li:hover {
+    background-color: yellow;
+  }
+
+img {
+    /* max-width: 100%; */
+    height: auto;
+    width: auto\9; 
+}
+
+div {
+    border-style: solid;
+    border-color: black;
+}
